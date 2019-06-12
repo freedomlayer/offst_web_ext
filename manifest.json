@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "OffstWeb",
+    "version": "1.0,",
+
+    "description": "Redirects Offst payment requests",
+
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "https://www.offst.org/payment/"
+    ],
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
